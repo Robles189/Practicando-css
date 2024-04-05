@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atributo tabindex</title>
+    <link rel="stylesheet" href="../css/">
+</head>
+<body>
+    <p>Hacé click en cualquiera de estos componentes.</p>
+
+    <label>Primer elemento:<input type="text"></label>
+
+    <div tabindex="0">Segundo elemento</div>
+    <!--Por defecto el tabindex viene con "0".
+    El tabindex sirve para ordenar al navegador que seleccionar
+    primero al ingresar al sitio/pagina con la tecla TAB,
+    respetando la jerarquia del valor positivo al negativo-->
+
+    <div>Elemento no indexado</div>
+
+    <label>Tercer elemento<input type="text"></label>
+</body>
+</html>

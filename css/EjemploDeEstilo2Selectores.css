@@ -1,0 +1,43 @@
+/*Etiqueta: sirven para seleccionar todos los elementos 
+de una misma etiqueta o tag HTML.*/
+h1 {
+font-size: 26px;
+}
+
+/*Clase: selecciona todos los elementos de una 
+clase determinada. (Class de CSS).*/
+.destacado {
+font-weight: bold;
+color: orange;
+}
+
+/*Identificador: permiten seleccionar etiquetas individuales
+por el atributo Id de la etiqueta.*/
+#mifomulario {
+border: 1px solid #99c;
+}
+
+/*Atributo: permiten seleccionar todas las etiquetas que tengan
+un atributo dado, o bien un atributo con un valor determinado.*/
+[title] {
+text-decoration: none;
+}
+
+[align="center"] {
+border: 1px solid red;
+}
+
+/*Este selector aplicaría estilos a todos los elementos <h2> que
+estén dentro de contenedores que tienen la clase "nota".*/
+.nota h2 {
+font-weight: normal;
+}
+
+/*También podemos combinar los selectores de CSS usando una coma.
+Entonces estamos indicando que los atributos de estilo deben
+aplicarse a los dos selectores por separado.
+Así estaríamos indicando que queremos aplicar estilos sobre 
+todos los párrafos y todas las divisiones con la clase "bloque".*/
+p, div.bloque {
+margin-bottom: 25px;
+}

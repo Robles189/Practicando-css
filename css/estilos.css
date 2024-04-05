@@ -14,6 +14,9 @@ main{
     padding-right: 0px;
     background-color: aliceblue;
 }
+div{
+    margin-top: 10px;
+}
 a{
     color:dodgerblue;
 }
